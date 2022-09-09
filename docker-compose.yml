@@ -1,0 +1,10 @@
+services:
+  facebook-messenger-channel:
+    build: .
+    ports:
+      - "3000:3000"
+    networks:
+      - backend-tier
+
+networks:
+  backend-tier: {}

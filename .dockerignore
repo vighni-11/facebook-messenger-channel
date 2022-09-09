@@ -1,0 +1,9 @@
+node_modules
+src
+.dockerignore
+.gitignore
+.git
+.vscode
+docker-compose.yml
+Dockerfile
+tsconfig.json
